@@ -1,4 +1,4 @@
-# HASMAPS
+# HASMAPS and SETS.
 
 ## Odd Occurrences in Array - Lesson 2
 
@@ -99,6 +99,8 @@
 -Convert our object to an array to return the length.
 
 
-## Permcheck - Lesson 4.
+# ARRAYS.
+
+
 
 `
