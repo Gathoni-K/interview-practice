@@ -101,6 +101,33 @@
 
 # ARRAYS.
 
+## CyclicRotation - Lesson 2
+
+-Rotate an array such that the last index is the first index then the rest are pushed to the right by one index.
+
+-The method of rotating an array k times; the reversal algorithm is used.
+
+**The Reversal Algorithm**
+
+-For a right rotation:
+
+1.Reverse the entire array.
+2.Reverse the first k elements of the array.
+3.Reverse the remaining n - k elements
+
+-Define a reverse function that will be called in our solution, its parameters being our array, start and end
+
+    function reverse(A, start, end) {
+
+        while(start < end)
+        let temp = A[start];
+        A[start] = A[end];
+        A[end] = temp;
+
+        start ++;
+        end --;
+    }
+
 
 
 `
